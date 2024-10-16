@@ -21,6 +21,9 @@ const server = app.listen(process.env.PORT || 5000, () => {
   console.log("Server started at port", process.env.PORT || 5000);
 });
 
+
+
+
 const io = socket(server, {
   cors: {
     origin: ["https://stunning-madeleine-57de3f.netlify.app", "http://localhost:3000"],
